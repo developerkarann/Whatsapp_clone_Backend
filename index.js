@@ -21,5 +21,5 @@ app.get('/',(req,res)=>{
 DatabaseConnection();
 
 app.listen(PORT, ()=>{
-    console.log(`Server is runnig on port ${PORT}`)
+    console.log(`Server is runnig on port ${PORT} successfully`)
 })
